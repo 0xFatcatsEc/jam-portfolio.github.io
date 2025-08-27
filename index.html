@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="navigation">
+            <div class="logo">PORTFOLIO</div>
+            <div class="hamburger" id="hamburger">☰</div>
+            <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact-sec">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Home Page -->
+
+    <section id="home" class="fade-on-load animate-on-scroll">
+        <div class="text-con">
+            <div class="con">
+                <h2>
+                    Frontend <br> <span>Developer</span>
+                </h2>
+                <p>Building responsive, performant web applications with modern JavaScript frameworks.
+                    Passionate about creating seamless user experiences and clean, maintainable code.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About sectio  -->
+
+    <section id="about" class="fade-on-load animate-on-scroll">
+        <div class="about-container">
+            <div class="text-item">
+                <div class="text">
+                    <h2>About Me</h2>
+                </div>
+            </div>
+            <div class="about-con">
+                <div class="about-text">
+                    <p class="p1">
+                        I'm a frontend developer with 4+ years of experience building scalable, user-friendly web applications. I specialize in modern JavaScript frameworks and have a keen eye for translating designs into pixel-perfect interfaces.
+                    </p>
+                    <p class="p2">
+                        My expertise lies in React ecosystem, TypeScript, and modern CSS frameworks. I'm passionate about web performance, accessibility, and creating maintainable codebases that scale with growing teams and user demands.
+                    </p>
+                    <p class="p3">
+                        I stay current with the latest frontend trends and best practices, contributing to open-source projects and constantly learning new technologies to deliver cutting-edge solutions.
+                    </p>
+                </div>
+                <div class="skills-grid">
+                    <div class="grid-con">
+                        <h4>Frontend Technologies</h4>
+                        <div class="grid-wrapper">
+                            <div class="grid-item">React & Next.js</div>
+                            <div class="grid-item">TypeScript & JavaScript</div>
+                            <div class="grid-item">Tailwind CSS & SCSS</div>
+                            <div class="grid-item">Vue.js & Nuxt.js</div>
+                            <div class="grid-item">REST APIs & GraphQL</div>
+                            <div class="grid-item">Git & GitHub</div>
+                            <div class="grid-item">Responsive Design</div>
+                            <div class="grid-item">Performance Optimization</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section  -->
+
+    <section id="contact-sec" class="fade-on-load animate-on-scroll">
+        <div class="contact-container">
+                <div class="text-header">
+                    <h4>Get in Touch</h4>
+                    <p>Have a project in mind? Let's discuss how we can work together to bring your ideas to life.</p>
+                </div>
+            <div class="contact-info-grid">
+                <div class="contact-grid-wrapper">
+                    <div class="message-card">
+                        <form action="">
+                            <h5>Send me a Message</h5>
+                            <p>Name</p>
+                            <input type="text" id="name" placeholder="Your Name" required>
+                            <p>Email</p>
+                            <input type="email" id="email" placeholder="Your Email" required>
+                            <p>Message</p>
+                            <textarea id="message" placeholder="Your Message" required></textarea>
+                        </form>
+                        <button class="btn-submit" type="submit">Send Message</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
